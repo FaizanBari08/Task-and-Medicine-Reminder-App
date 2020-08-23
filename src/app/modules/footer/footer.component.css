@@ -1,0 +1,12 @@
+.container-fluid{
+    margin-left: 0px;
+    float: left !important;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 0% !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}

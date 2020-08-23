@@ -1,0 +1,31 @@
+<div class="container">
+  <div style="font-size: 20px; font-weight: bold; margin-bottom: 10px"> User Details: </div>
+  <table id="customers">
+    <tr>
+      <td>Name: </td>
+      <td>{{personDetail.name}}</td>
+    </tr>
+    <tr>
+      <td>Age: </td>
+      <td>{{personDetail.age}}</td>
+    </tr>
+    <tr>
+      <td>Blood Group: </td>
+      <td>{{personDetail.bloodgp}}</td>
+    </tr>
+    <tr>
+      <td>Phone: </td>
+      <td>{{personDetail.phone}}</td>
+    </tr>
+    <tr>
+      <td>Email: </td>
+      <td>{{personDetail.email}}</td>
+    </tr>
+    <tr>
+      <td>Gender: </td>
+      <td>{{personDetail.gender}}</td>
+    </tr>
+    </table>
+
+    <button id="logoutButton" type="button" (click)="onLogout()">Logout</button>
+</div>

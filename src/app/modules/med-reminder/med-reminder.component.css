@@ -1,0 +1,49 @@
+#container1{
+    width: 43%;
+    margin-left: 55%;
+    margin-right: 2%;
+}
+.titleMed{
+    margin-top:20px;
+}
+td{text-align: center;
+    background-color:lightgray;
+    padding: 5px;
+}
+th{
+    color: white;
+    background-color: palevioletred;
+    padding: 10px;
+}
+button{
+    height: 40px;
+    width: 60px;
+    background: palevioletred;
+    color: white;
+    margin-left: 3px;
+    border: none;
+}
+input{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    margin-left: 4px;
+    border: 2px solid black;
+    width: 45.5%;
+    height: 30px;
+}
+table{
+    width: 100%;
+}
+
+.inputMed{
+    margin-top: 3%;
+}
+mat-form-field {
+    margin-right: 12px;
+  }
+
+  .mat-form-field-appearance-fill .mat-form-field-flex{
+      height: 2px;
+      background-color: none;
+  }

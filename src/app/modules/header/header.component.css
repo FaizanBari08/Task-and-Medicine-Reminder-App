@@ -1,0 +1,55 @@
+.headerDetail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headingFont{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white
+}
+
+.outer {
+    display: table;
+    height: 30px;
+    width: 100%;
+    background-color: palevioletred;
+  }
+
+.sideHeader{
+    color: #000;
+    font-size: 16pt !important;
+    font-weight: bold;
+  }
+
+  
+@media (max-width: 767px) {
+    .headingFont{
+        font-size: 21px !important;
+      }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .headingFont{
+        font-size: 32px !important;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    .headingFont{
+        font-size: 25px !important;
+      }
+} 
+
+@media screen and (min-width: 319px) and (max-width: 480px) {
+    headingFont{
+        font-size: 25px !important;
+      }
+
+}
+
+.iconStyle{
+    margin-left: 10px; 
+    width:26px; 
+    margin-bottom: -3px
+}

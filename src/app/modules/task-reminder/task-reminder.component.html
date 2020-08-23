@@ -1,0 +1,22 @@
+<div id="container">
+  <h2>{{title}}</h2>
+  <input placeholder="Add New Task Reminder" type="text" #newTodo />
+  <button (click)="addTodo(newTodo.value); newTodo.value=''"> Add</button>
+  <table>
+    <tr>
+      <th style="width: 50%;"> Label</th>
+      <th style="width: 20%;"> Status</th>
+      <th style="width: 30%;">Action</th>
+    </tr>
+    <tr *ngFor="let todo of todos">
+      <td>{{todo.label}}</td>
+      <td>{{todo.status ? '&#10003;' : '&#10005;'}}</td>
+      <td><span>
+          <button (click)="deleteTodo(todo)">Delete</button>
+          <button (click)="doneTodo(todo)">Update</button>
+        </span>
+      </td>
+
+    </tr>
+  </table>
+</div>

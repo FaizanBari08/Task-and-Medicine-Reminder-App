@@ -1,0 +1,40 @@
+.container{
+    margin-top: 80px;
+}
+
+#customers {
+    margin-top: 30px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #logoutButton{
+    margin-top: 100px;
+  }
+
+  button{
+    height: 40px;
+    width: 80px;
+    background: palevioletred;
+    color: white;
+    margin-left: 3px;
+    border: none;
+}

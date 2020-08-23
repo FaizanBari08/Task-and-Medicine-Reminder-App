@@ -1,0 +1,35 @@
+#container{
+    width: 49%;
+    margin-left: 1%;
+    float: left;
+}
+td{text-align: center;
+    background-color:lightgray;
+    padding: 5px;
+}
+th{
+    color: white;
+    background-color: palevioletred;
+    padding: 10px;
+}
+button{
+    height: 40px;
+    width: 60px;
+    background: palevioletred;
+    color: white;
+    margin-left: 3px;
+    border: none;
+}
+input{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    margin-left: 4px;
+    border: 2px solid black;
+    width: 87.5%;
+    height: 30px;
+}
+table{
+    width: 100%;
+}
+

@@ -1,0 +1,17 @@
+<form id="formId" #myForm="ngForm" (ngSubmit)="loginUser()">
+
+    <div *ngIf="isErr">{{errMsg}}</div>
+
+    <div class="input">
+        <label>Username: </label>
+        <input type="text" placeholder="adam" name="username" [(ngModel)]="username">
+    </div>
+    
+    <div class="input">
+        <label>Password: </label>
+        <input type="password" placeholder="adam123" name="password" [(ngModel)]="password">
+    </div>
+    
+        <button id="submitButton" type="submit">Submit</button>
+
+</form>
