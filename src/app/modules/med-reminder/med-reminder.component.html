@@ -1,11 +1,6 @@
 <div id="container1">
     <h2 class="titleMed"> {{title}}</h2>
     <input class="inputMed" placeholder="Add New Medicine Reminder" type="text" #newTodo />
-    <mat-form-field>
-        <input matInput [matDatepicker] = "picker" placeholder = "Choose a date">
-        <mat-datepicker-toggle matSuffix [for] = "picker"></mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker>
-     </mat-form-field>
     <button (click)="addMedTodo(newTodo.value); newTodo.value=''"> Add</button>
     <table>
       <tr>
@@ -15,7 +10,13 @@
       </tr>
       <tr *ngFor="let todo of todos">
         <td>{{todo.label}}</td>
-        <td>{{todo.date}}</td>
+        <td>
+          <mat-form-field color="accent" appearance="fill">
+            <input matInput [matDatepicker]="picker2">
+            <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+            <mat-datepicker #picker2 color="primary"></mat-datepicker>
+          </mat-form-field>
+        </td>
         <td><span>
             <button (click)="deleteReminder(todo)">Delete</button>
           </span>
